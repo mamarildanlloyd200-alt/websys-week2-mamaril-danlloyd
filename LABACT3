@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Personal Website - Dan Lloyd Mamaril</title>
+<style>
+
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+
+        header, nav, section, footer { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; border-radius: 5px; }
+
+        nav ul { list-style-type: none; padding: 0; }
+
+        nav ul li { display: inline; margin-right: 15px; }
+
+        img { max-width: 200px; border-radius: 50%; } /* Style for your profile picture */
+</style>
+</head>
+<body>
+<header>
+<h1>Dan Lloyd Mamaril</h1>
+<p>Course: BSIT/ Multimedia aarts and animation</p>
+</header>
+<nav>
+<ul>
+<li><a href="#about">About Me</a></li>
+<li><a href="#hobbies">Hobbies</a></li>
+<li><a href="#websites">Favorite Websites</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+<main>
+<section id="about">
+<h2>About Me</h2>
+<img src="myprofile.png" alt="Profile picture of Dan Lloyd Mamaril">
+<p>Welcome to my personal webpage! My name is Dan Lloyd Mamaril. I am a student taking the BSIT/MAA course. In this class, "Web Systems and Technologies," I am learning to build engaging and well-structured web pages from scratch using fundamental technologies like HTML.</p>
+</section>
+<section id="hobbies">
+<h2>My Hobbies</h2>
+<ul>
+<li>Coding & learning new web technologies</li>
+<li>Playing video games</li>
+<li>[Add your hobby 3]</li>
+<li>[Add your hobby 4]</li>
+</ul>
+</section>
+<section id="websites">
+<h2>Favorite Websites</h2>
+<ol>
+<li><a href="https://github.com" target="_blank">GitHub</a> - Where developers collaborate on code.</li>
+<li><a href="https://www.w3schools.com" target="_blank">W3Schools</a> - A great resource for web development tutorials.</li>
+<li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a> - Q&A site for professional and enthusiast programmers.</li>
+<li><a href="https://music.youtube.com" target="_blank">youtube music</a> - Music for chill vibe while coding</li>
+</ol>
+</section>
+<section id="contact">
+<h2>Contact</h2>
+<p>You can reach me via email or connect with me on professional platforms:</p>
+<ul>
+<li>Email: [your.email@example.com]</li>
+<li>LinkedIn: [your linkedin profile URL]</li>
+<li>GitHub: <a href="[your github profile URL]" target="_blank">[your github username]</a></li>
+</ul>
+</section>
+</main>
+<footer>
+<p>&copy; 2023 Dan Lloyd Mamaril. Created for Laboratory Activity No. 2.</p>
+</footer>
+</body>
+</html>
